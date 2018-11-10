@@ -1,0 +1,123 @@
+.background{
+    background-image: url("backround.jpg");
+    /* background-position: center; Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size:cover;
+    height: auto;
+	font-family:Segoe UI, Tahoma, Geneva, Verdana, sans-serif !important; 
+}
+
+input,button,textarea:active,focus {
+    outline:none !important;
+}
+
+::placeholder {
+    color:#999;
+}
+
+.heading{
+    align-content: center;
+    text-align: center;
+    font-weight:normal;
+    color:#5d6d7e;
+    margin:2rem;
+    font-size:2.5rem;
+    letter-spacing: 0.8rem;
+    text-shadow:0 1px #000;
+}
+
+.login_holder {
+    width:28%;
+    height:auto;
+    padding:0.5rem;
+    background:transparent;
+    align-content:center;
+    border-radius:.2rem;
+}
+
+.social_options_holder {
+    width:auto;
+    padding:10%;
+    margin-left:5%;
+    margin-right:5%;
+    background:linear-gradient(to right,#48c9b0,#1abc9c,#17a589);
+    height:auto;
+    border-radius:.2rem;
+    position:relative;
+    z-index:1500;   
+    box-shadow:0 5px 20px #aaa;
+}
+
+.line {
+    display:table;
+    width:80%;
+    align-content: center;
+}
+
+.line font {
+    font-size:1.2rem;
+    color:#fff;
+    font-weight:800;
+}
+
+.line_box {
+    display:table-cell;
+    padding:0.3rem;
+    width:auto;
+    align-content: center;
+}
+
+.line_box a {
+    color:#fff;
+    font-weight:800;
+    text-decoration: none;
+}
+
+.form_holder {
+    width:auto;
+    padding:1.2rem;
+    padding-top:35%;
+    margin-top:-30%;
+    background:#fff;
+    position:relative;
+    z-index:0;
+    border-radius:.2rem;
+}
+
+.input_holder {
+    width:auto;
+    padding:1rem 0 1rem 0;
+}
+
+.box {
+    width:94%;
+    border:none;
+    border-bottom:1.5px solid #ccc;
+    padding-bottom:3%;
+    padding-top:3%;
+    color:#5d6d7e;
+    transition:0.5s border ease-in-out;
+}
+
+.box:focus::placeholder {
+    color:#5d6d7e;
+}
+
+.box:focus {
+    border-bottom:1.5px solid #1abc9c;
+}
+
+.submit_button {
+    width:auto;
+    padding:2%;
+    border:none;
+    background:none;
+    color:#1abc9c;
+    font-weight:500;
+    font-size:.9rem;
+    cursor:pointer;
+}
+
+.submit_button:hover {
+    color:#17a589;
+}
